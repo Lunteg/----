@@ -13,7 +13,7 @@ def load_file_to_db():
 
 @asset
 def sql_create_table_as(load_file_to_db):
-    df['domain_of_url'] = df['url'].apply(lambda x: urlparse(x).netloc)
+    load_file_to_db['domain_of_url'] = load_file_to_db['url'].apply(lambda x: urlparse(x).netloc)
     print(load_file_to_db)
     return load_file_to_db
     
