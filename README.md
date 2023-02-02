@@ -1,6 +1,6 @@
 # ----
 
-#Папка piplinTest - где пробовал Dagster
+# Папка piplinTest - где пробовал Dagster
 
 # Папка pipPrefect - где пробовал Prefect
 
